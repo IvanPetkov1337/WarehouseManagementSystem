@@ -51,12 +51,7 @@ namespace WarehouseManagementSystem.Models
     {
 
 
-        [Required]
-        [StringLength(15, MinimumLength = 3)]
-        [RegularExpression(@"^[a-zA-Z0-9-]+$")]
-        [Display(Name = "Username")]
-        public string Username { get; set; }
-
+       
 
         [Required]
         [Display(Name = "Email")]
